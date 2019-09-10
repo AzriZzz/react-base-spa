@@ -13,12 +13,18 @@
 /* MAIN NAVIGATION ------------------------------------------------------------*/
 
 .btn-nav{
+	// @include position(absolute, 50px null null 50px);
+	appearance: none;
+	border: 0;
+	height: 20px;
+	width: 20px;
+
 	.line{
 		@include position(absolute, null null null 0);
 		display: block;
-		width: 100%;
+		width: 20px;
 		height: 3px;
-		background: $white;
+		background: $black;
 	}
 	.line-1{
 		top: 0;
