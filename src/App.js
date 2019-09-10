@@ -4,7 +4,9 @@ class App extends Component{
   render() {
     return (
       <div className="App">
-        <h1>Hello, React!</h1>
+        <div className="container mt-5 pt-5">
+          <h1 className="black">Is this working!</h1>
+        </div>
       </div>
     )
   }
