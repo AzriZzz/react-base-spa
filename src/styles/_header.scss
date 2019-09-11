@@ -12,12 +12,14 @@
 
 /* MAIN NAVIGATION ------------------------------------------------------------*/
 
-.btn-nav{
-	// @include position(absolute, 50px null null 50px);
-	appearance: none;
+.btn-nav{	
+	width: 30px;
+	display: block;
+	height: 30px;
+	position: relative;
+	background: none;
 	border: 0;
-	height: 20px;
-	width: 20px;
+	padding: 0;
 
 	.line{
 		@include position(absolute, null null null 0);
